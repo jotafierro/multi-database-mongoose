@@ -1,0 +1,41 @@
+{
+  "name": "multi-database-mongoose",
+  "version": "0.1.70",
+  "description": "utils for multiples mongodb databases with mongoose",
+  "main": "index.js",
+  "keywords": [
+    "database",
+    "mongoose",
+    "multi"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jofierro/multi-database-mongoose"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "test-spec": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "bugs": {
+    "url": "https://github.com/jofierro/multi-database-mongoose/issues"
+  },
+  "author": "Jonathan Fierro Sandoval <jofierro@live.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.1.4",
+    "bcrypt-nodejs": "0.0.3",
+    "i18n-iso-countries": "^1.8.1",
+    "lodash": "^4.17.4",
+    "lodash-extends": "^1.0.4",
+    "moment": "^2.17.1",
+    "mongoose": "^4.7.8",
+    "mongoose-unique-validator": "^1.0.3",
+    "simple-slug": "^1.1.0",
+    "winston": "^2.3.1",
+    "wrapper-path": "^1.0.3"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
